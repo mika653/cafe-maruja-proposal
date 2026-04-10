@@ -18,10 +18,10 @@ export default function ProposalPage() {
           position: "sticky",
           top: 0,
           zIndex: 50,
-          background: "rgba(10,10,10,0.85)",
-          backdropFilter: "blur(12px)",
-          WebkitBackdropFilter: "blur(12px)",
-          borderBottom: "1px solid #1f1f1f",
+          background: "rgba(255,255,255,0.92)",
+          backdropFilter: "blur(16px)",
+          WebkitBackdropFilter: "blur(16px)",
+          borderBottom: "1px solid #E5E5E5",
         }}
       >
         <div
@@ -45,10 +45,10 @@ export default function ProposalPage() {
           >
             <span
               style={{
-                color: "#c9a962",
+                color: "#F57E20",
                 fontSize: 11,
                 letterSpacing: 3,
-                fontWeight: 600,
+                fontWeight: 700,
                 whiteSpace: "nowrap",
               }}
             >
@@ -56,7 +56,7 @@ export default function ProposalPage() {
             </span>
             <span
               style={{
-                color: "#444",
+                color: "#CCC",
                 fontSize: 11,
               }}
             >
@@ -64,7 +64,7 @@ export default function ProposalPage() {
             </span>
             <span
               style={{
-                color: "#888",
+                color: "#666",
                 fontSize: 11,
                 fontWeight: 500,
                 overflow: "hidden",
@@ -79,8 +79,8 @@ export default function ProposalPage() {
             href="/cafe-maruja-proposal.pdf"
             download
             style={{
-              background: "#c9a962",
-              color: "#0a0a0a",
+              background: "#F57E20",
+              color: "#FFFFFF",
               padding: "8px 18px",
               borderRadius: 999,
               fontSize: 11,
@@ -112,9 +112,9 @@ export default function ProposalPage() {
             style={{
               borderRadius: 8,
               overflow: "hidden",
-              boxShadow: "0 12px 48px rgba(0,0,0,0.4)",
-              border: "1px solid #1f1f1f",
-              background: "#0f0f0f",
+              boxShadow: "0 12px 48px rgba(0,0,0,0.08)",
+              border: "1px solid #E5E5E5",
+              background: "#FFFFFF",
             }}
           >
             <Image
@@ -136,7 +136,7 @@ export default function ProposalPage() {
       {/* Footer */}
       <footer
         style={{
-          borderTop: "1px solid #1f1f1f",
+          borderTop: "1px solid #E5E5E5",
           padding: "32px 24px 48px",
           textAlign: "center",
         }}
@@ -152,7 +152,7 @@ export default function ProposalPage() {
         </p>
         <p
           style={{
-            color: "#444",
+            color: "#999",
             fontSize: 10,
             marginTop: 8,
             fontStyle: "italic",
